@@ -1,0 +1,8 @@
+replicaCount: 1
+image:
+  repository: ghcr.io/haopongyou123/tesla-control
+  pullPolicy: IfNotPresent
+  tag: "latest"
+service:
+  type: ClusterIP
+  port: 80
